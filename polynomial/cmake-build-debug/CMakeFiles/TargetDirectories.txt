@@ -1,0 +1,3 @@
+/Users/lovestudy/Desktop/Project/data/new_pol/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/lovestudy/Desktop/Project/data/new_pol/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/lovestudy/Desktop/Project/data/new_pol/cmake-build-debug/CMakeFiles/new_pol.dir

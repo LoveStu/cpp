@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lovestudy/Desktop/Project/data/new_pol/main.cpp
+iostream
+-
+polynomial.h
+/Users/lovestudy/Desktop/Project/data/new_pol/polynomial.h
+
+/Users/lovestudy/Desktop/Project/data/new_pol/polynomial.cpp
+polynomial.h
+/Users/lovestudy/Desktop/Project/data/new_pol/polynomial.h
+new
+-
+cassert
+-
+iostream
+-
+
+/Users/lovestudy/Desktop/Project/data/new_pol/polynomial.h
+iostream
+-
+
