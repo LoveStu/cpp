@@ -29,13 +29,17 @@ void minmax(T *a, int n, int &iMax, int &iMin)
     {
         if (a[i] > a[i + 1])
         {
-            iMax = i;
-            iMin = i + 1;
+            if (a[i] > a[iMax])
+                iMax = i;
+            if (a[i + 1] < a[iMin])
+                iMin = i + 1;
         }
         else
         {
-            iMax = i + 1;
-            iMin = i;
+            if (a[i + 1] > a[iMax])
+                iMax = i + 1;
+            if (a[i] < a[iMin])
+                iMin = i;
         }
     }
 }
